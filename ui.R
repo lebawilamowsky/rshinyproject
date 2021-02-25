@@ -99,7 +99,11 @@ dashboardBody(
         Uber actually introduced a feature in 2016 that allows for scheduling rides in advance. When 
         people know that scheduling a car in advance is a choice that they can choose, they can see 
         Uber as more dependable. If they choose to do book in advance, the frustrating scenario of no 
-        cars being available, which can turn people away from relying on Uber in general, can be avoided.")
+        cars being available, which can turn people away from relying on Uber in general, can be avoided."),
+      p("I'd like to point out that this analysis is mainly beneficial for the Uber company in 2016 and soon after. 
+        I think it would be interesting to analyze Uber's data since then to see if trends have shifted, 
+        and if those trends shifted after the introduction of ideas like those I mentioned and/or other
+        changes in the company.")
     ),
     
     tabItem(tabName = "data", # datatable
