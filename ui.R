@@ -25,7 +25,7 @@ dashboardBody(
         often people who request rides to or from the airport are let down by Uber; 
         there are no drivers available and/or drivers cancel on them. What this means is 
         that Uber is making much less money than it has the potential to. What this also 
-        means is that  people may become less inclined to use Uber in the future, after 
+        means is that people may become less inclined to use Uber in the future, after 
         experiencing it as an unreliable company or hearing about it as so."),
       p("Luckily, there are ways to help reduce the problem; and pinpointing the problem 
         is helpful to come up with more specific, targeted solutions. To pinpoint where and 
@@ -83,9 +83,10 @@ dashboardBody(
         unless the cancellation is done for a very legitimate reason. Cancellations can frustrate 
         customers even more than no cars being available. It is more of a let-down for a customer 
         to think they have a ride and then be cancelled on, than for them to know right away that 
-        there are no cars available. It is possible that by now, the year 2021, Uber already has 
-        policies regarding cancellation. Perhaps there are policies about drivers getting penalties 
-        after cancelling a certain percentage of rides they accept. Drivers do need the right to cancel, 
+        there are no cars available. It is possible that by now, the year 2021, Uber has implemented 
+        new policies regarding cancellation. Perhaps there are already, or if not there should be, 
+        policies about drivers getting penalties after cancelling a certain percentage of rides 
+        they accept. Drivers do need the right to cancel, 
         since they can encounter a customer with a very low rating or a customer that they can't find 
         and get in touch with. The point is that they shouldn't do it often enough that it can hurt 
         Uber's reputation and revenue."),
@@ -98,7 +99,7 @@ dashboardBody(
         Uber actually introduced a feature in 2016 that allows for scheduling rides in advance. When 
         people know that scheduling a car in advance is a choice that they can choose, they can see 
         Uber as more dependable. If they choose to do book in advance, the frustrating scenario of no 
-        cars being available, that can turn people away from relying on Uber in general, can be avoided.")
+        cars being available, which can turn people away from relying on Uber in general, can be avoided.")
     ),
     
     tabItem(tabName = "data", # datatable

@@ -35,11 +35,15 @@ shinyServer(function(input, output) {
       theme(axis.text = element_text(size = 9, color = 'black'), axis.text.x = element_text(angle = 30)) + ggtitle("Total Requests") + theme(plot.title = element_text(hjust = 0.5))
   })
   output$twobartext = renderText({
-    'Here are two bar graphs displaying a closer look at the categories "cancelled" and 
+    'There are two bar graphs displaying a closer look at the categories "cancelled" and 
     "no cars available". These graphs incorporate time and place so that we know both where 
     and when the issues are happening most. We see that Uber would greatly benefit from 
-    more drivers completing trips in the city area before noon and more drivers in the 
-    airport area in the evenings after 4:00 PM.'
+    more drivers completing trips in the city area during the early mornings until noon 
+    and in the airport area during the evenings after 4:00 PM.
+    We also see, from examining the graph of total requests, including completed trips, that 
+    those particular times of day in those particular locations have the highest amounts 
+    of requests. Therefore, we can conclude that in general, many drivers are needed during 
+    mornings in the city and evenings in the airports.'
   })
   output$svda = renderGvis({
     gvisLineChart(
@@ -64,7 +68,7 @@ shinyServer(function(input, output) {
     )
   })
   output$svdtext = renderText({
-    'Here is a visualization of how great the "supply-demand" gap is.We see that 
+    'Here is an interactive visualization of how great the "supply-demand" gap is.We see that 
     the supply barely correlates with the demand, as a similar amount of requests 
     are completed when the demand is huge as when the demand is small. It would be 
     beneficial for Uber to emphasize when and where the demand is high to its 

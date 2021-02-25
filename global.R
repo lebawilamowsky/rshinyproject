@@ -6,8 +6,8 @@ library(tidyr)
 library(lubridate)
 library(DT)
 library(shinydashboard)
+library(rsconnect)
 
-setwd('~/Desktop/Rshinyproject')
 uberdata = read.csv('UberRequestData.csv')
 uberdata = uberdata[, 2:5]
 uberdata = separate(uberdata, Request.timestamp, c('date', 'time'), sep = " ")
